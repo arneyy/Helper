@@ -14,3 +14,8 @@ Um die Warnmeldung zu unterdrücken:
 
 Um Username + Passwort für 10 Std zu speichern:
   git config --global credential.helper 'cache --timeout=36000'
+
+--
+
+SSH statt HTTPS:
+
