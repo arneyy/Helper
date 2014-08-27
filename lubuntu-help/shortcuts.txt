@@ -1,0 +1,21 @@
+Firefox: Windows + F
+
+- pcmanfm öffnen: Windows + E
+- Versteckte Dateien anzeigen: Strg + H
+- Navigieren /home/as/.config/openbox
+- Editieren Leafpad lubuntu-rc.xml
+- Strg + J: Goto Zeile 371 (keyboard shortcuts)
+- Einfügen:
+    <keybind key="W-f">
+      <action name="Execute">
+        <command>firefox</command>
+      </action>
+    </keybind>
+- Speichern + abmelden Strg+Alt+Entf + neu anmelden
+>Windows + f startet Firefox
+
+Konfigdatei zu eigener Nutzerkonfig hinzufügen:
+
+in home:
+- mkdir config
+- ~/.config/openbox$ link lubuntu-rc.xml ../../config/shortcuts
