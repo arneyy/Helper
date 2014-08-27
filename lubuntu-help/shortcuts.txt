@@ -2,7 +2,7 @@ Firefox: Windows + F
 
 - pcmanfm öffnen: Windows + E
 - Versteckte Dateien anzeigen: Strg + H
-- Navigieren /home/as/.config/openbox
+- Navigieren ~/.config/openbox
 - Editieren Leafpad lubuntu-rc.xml
 - Strg + J: Goto Zeile 371 (keyboard shortcuts)
 - Einfügen:
