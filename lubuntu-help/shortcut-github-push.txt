@@ -19,3 +19,7 @@ Um Username + Passwort für 10 Std zu speichern:
 
 SSH statt HTTPS:
 
+Dauerhaftes Speichern der Passphrase des SSH-Keys
+
+ssh-agent bash
+ssh-add /home/$USER/.ssh/id_rsa
