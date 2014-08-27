@@ -1,0 +1,13 @@
+In ~/.bashrc am Ende einfügen:
+
+function lazygit() {
+    git add .
+    git commit -a -m "$1"
+    git push
+}
+
+Shell im Repository -Ordner öffnen und folgendes Kommando absetzen:
+  lazygit "a message"
+
+Um die Warnmeldung zu unterdrücken:
+git config --global push.default simple
